@@ -1,0 +1,62 @@
+1. Domain Searched - Linkedin.com 
+
+IP:  S. No.     Domain Name     IP Address
+        1          linkedin.com      inkedin.com./108.174.10.10
+
+Location information : linkedin.com
+Country Code             US
+Country Name            United States of America
+Region                       California
+City                           Sunnyvale
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.Domain Searched - Georgebrown.ca
+
+IP:  S. No.          Domain Name         IP Address
+         1              georgebrown.ca      eorgebrown.ca./198.96.86.202
+
+Location information : georgebrown.ca
+Country Code             CA
+Country Name            Canada
+Region                       Ontario
+City                           Toronto
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Domain Searched - Microsoft.com
+
+IP- S. No.          Domain Name          IP Address
+        1              microsoft.com          icrosoft.com./40.76.4.15
+
+Location information : microsoft.com
+Country Code             IE
+Country Name            Ireland
+Region                       Dublin
+City                            Dublin
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Domain Searched - 
+
+IP- S. No.            Domain Name        IP Address
+       1                 flipkart.com            lipkart.com./163.53.78.128
+
+Location information : flipkart.com
+Country Code             IN
+Country Name            India
+Region                       Karnataka
+City                           Bangalore
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. DOmain Searched - 
+
+IP-  S. No.        Domain Name         IP Address
+         1             toronto.com           oronto.com./52.20.1.120
+
+Location information : toronto.com
+Country Code             US
+Country Name            United States of America
+Region                       Virginia
+City                            Ashburn

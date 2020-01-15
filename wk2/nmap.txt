@@ -1,0 +1,86 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap google.com facebook.com yahoo.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:23 UTC
+Stats: 0:01:58 elapsed; 0 hosts completed (3 up), 3 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.00% done; ETC: 16:25 (0:00:01 remaining)
+Stats: 0:02:04 elapsed; 0 hosts completed (3 up), 3 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.55% done; ETC: 16:25 (0:00:01 remaining)
+Stats: 0:02:05 elapsed; 0 hosts completed (3 up), 3 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.63% done; ETC: 16:25 (0:00:00 remaining)
+Stats: 0:02:06 elapsed; 0 hosts completed (3 up), 3 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.72% done; ETC: 16:25 (0:00:00 remaining)
+Nmap scan report for google.com (172.217.0.238)
+Host is up (0.00063s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:808::200e
+rDNS record for 172.217.0.238: yyz10s03-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.00047s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+
+Nmap scan report for yahoo.com (98.137.246.8)
+Host is up (0.062s latency).
+Other addresses for yahoo.com (not scanned): 98.138.219.232 98.137.246.7 98.138.219.231 72.30.35.10 72.30.35.9 2001:4998:44:41d::4 2001:4998:58:1836::11 2001:4998:c:1023::5 2001:4998:44:41d::3 2001:4998:c:1023::4 2001:4998:58:1836::10
+rDNS record for 98.137.246.8: media-router-fp2.prod1.media.vip.gq1.yahoo.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 3 IP addresses (3 hosts up) scanned in 129.38 seconds
+
+-----------------------------------------------------------------------------------------------------------------------------------
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 80-443 google.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:31 UTC
+Nmap scan report for google.com (172.217.164.206)
+Host is up (0.0014s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:808::200e
+rDNS record for 172.217.164.206: yyz12s04-in-f14.1e100.net
+Not shown: 362 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 80 google.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:33 UTC
+Nmap scan report for google.com (172.217.164.206)
+Host is up (0.0015s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:808::200e
+rDNS record for 172.217.164.206: yyz12s04-in-f14.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+---------------------------------------------------------------------------------------------------------------
+
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F google.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:34 UTC
+Nmap scan report for google.com (172.217.164.206)
+Host is up (0.0014s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:808::200e
+rDNS record for 172.217.164.206: yyz12s04-in-f14.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+
+

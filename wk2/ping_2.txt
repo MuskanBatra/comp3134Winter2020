@@ -1,0 +1,13 @@
+
+C:\Users\MUSKAN>ping 165.227.37.204
+
+Pinging 165.227.37.204 with 32 bytes of data:
+Reply from 165.227.37.204: bytes=32 time=3ms TTL=58
+Reply from 165.227.37.204: bytes=32 time=86ms TTL=58
+Reply from 165.227.37.204: bytes=32 time=4ms TTL=58
+Reply from 165.227.37.204: bytes=32 time=6ms TTL=58
+
+Ping statistics for 165.227.37.204:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 86ms, Average = 24ms

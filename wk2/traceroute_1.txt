@@ -1,0 +1,12 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# traceroute yahoo.com
+traceroute to yahoo.com (72.30.35.9), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.4.46 (10.78.4.46)  1.025 ms 10.78.4.38 (10.78.4.38)  2.851 ms *
+ 3  138.197.249.86 (138.197.249.86)  1.163 ms 138.197.249.82 (138.197.249.82)  1.205 ms 138.197.249.86 (138.197.249.86)  1.107 ms
+ 4  138.197.249.71 (138.197.249.71)  1.175 ms  1.159 ms  1.139 ms
+ 5  et-17-0-0.pat1.bfz.yahoo.com (216.115.101.135)  3.711 ms yahoo-xe2.torontointernetxchange.net (206.108.35.40)  3.525 ms et-19-0-0.pat2.bfz.yahoo.com (216.115.97.105)  3.740 ms
+ 6  UNKNOWN-72-30-223-X.yahoo.com (72.30.223.3)  4.203 ms et-19-0-0.pat2.bfz.yahoo.com (216.115.97.105)  3.110 ms et-0-0-0.msr1.bf2.yahoo.com (74.6.227.145)  3.651 ms
+ 7  et-18-0-1.msr1.bf2.yahoo.com (72.30.223.29)  3.836 ms et-1-1-1.msr1.bf1.yahoo.com (74.6.227.135)  3.192 ms et-0-0-0.msr2.bf1.yahoo.com (74.6.227.137)  7.840 ms
+ 8  eth-17-3.bas1-1-flk.bf1.yahoo.com (98.137.192.151)  3.856 ms et-19-0-0.clr2-a-gdc.bf1.yahoo.com (74.6.122.37)  3.432 ms eth-18-3-bas1-1-flk.bf1.yahoo.com (98.139.128.73)  3.819 ms
+ 9  media-router-fp1.prod1.media.vip.bf1.yahoo.com (72.30.35.9)  3.275 ms  3.216 ms eth-18-3-bas1-1-flk.bf1.yahoo.com (98.139.128.73)  3.400 ms
+
